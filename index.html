@@ -5,168 +5,163 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="Baiyun Chen, Ph.D. Assistant Professor of Computer Science at Tuskegee University. Research in trustworthy machine learning, noisy labels, imbalanced data, LLMs, healthcare AI, and cybersecurity."
+      content="Baiyun Chen, Ph.D. Assistant Professor of Computer Science at Tuskegee University. Research in robust machine learning, noisy labels, imbalanced data, LLMs, healthcare AI, and cybersecurity."
     >
-    <title>Baiyun Chen | Computer Science</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:wght@600;700&display=swap"
-      rel="stylesheet"
-    >
+    <title>Baiyun Chen | Academic Homepage</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="Baiyun Chen home">
-        <span class="brand-mark">BC</span>
-        <span>Baiyun Chen</span>
-      </a>
-      <nav class="nav" aria-label="Main navigation">
-        <a href="#research">Research</a>
+    <header class="masthead">
+      <a class="site-title" href="#about">Baiyun Chen</a>
+      <nav class="top-nav" aria-label="Main navigation">
         <a href="#publications">Publications</a>
-        <a href="#experience">Experience</a>
+        <a href="#research">Research</a>
+        <a href="#grants">Grants</a>
+        <a href="#cv">CV</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
-    <main id="top">
-      <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">Assistant Professor · Computer Science</p>
-          <h1>Baiyun Chen, Ph.D.</h1>
-          <p class="lead">
-            I study trustworthy and robust machine learning, with a focus on learning
-            from noisy and imbalanced data and applying AI to healthcare,
-            cybersecurity, and education.
+    <div class="page">
+      <aside class="sidebar" aria-label="Profile">
+        <div class="profile-card">
+          <img class="profile-image" src="assets/hero-workspace.png" alt="Abstract academic workspace">
+          <h1>Baiyun Chen</h1>
+          <p class="role">Assistant Professor of Computer Science</p>
+          <p class="bio">
+            I research trustworthy and robust machine learning, especially learning
+            with noisy and imbalanced data.
           </p>
-          <div class="hero-actions" aria-label="Primary actions">
-            <a class="button primary" href="mailto:bchen@tuskegee.edu">Email me</a>
-            <a class="button secondary" href="#publications">View publications</a>
-          </div>
+          <ul class="profile-links" aria-label="Profile links">
+            <li><span aria-hidden="true">◎</span> Tuskegee University</li>
+            <li><span aria-hidden="true">⌂</span> Tuskegee, Alabama</li>
+            <li><a href="mailto:bchen@tuskegee.edu"><span aria-hidden="true">@</span> Email</a></li>
+            <li><a href="https://github.com/baiyun-chen"><span aria-hidden="true">{ }</span> GitHub</a></li>
+          </ul>
         </div>
-        <div class="hero-visual" aria-hidden="true">
-          <img src="assets/hero-workspace.png" alt="">
-        </div>
-      </section>
+      </aside>
 
-      <section class="intro">
-        <div>
-          <span class="section-kicker">Current appointment</span>
-          <h2>Tenure-track Assistant Professor at Tuskegee University</h2>
-        </div>
-        <p>
-          I am a faculty member in the Department of Computer Science at Tuskegee
-          University's Andrew F. Brimmer College of Business and Information
-          Science. My work connects robust machine learning theory with practical
-          systems for high-impact domains.
-        </p>
-      </section>
+      <main class="content">
+        <section id="about" class="content-section">
+          <h2>About</h2>
+          <p>
+            I am a tenure-track Assistant Professor in the Department of Computer
+            Science at Tuskegee University's Andrew F. Brimmer College of Business
+            and Information Science.
+          </p>
+          <p>
+            My work develops robust machine learning methods for complex
+            classification scenarios and connects those methods to practical AI
+            systems in healthcare, cybersecurity, education, fraud detection, and
+            energy analytics.
+          </p>
+        </section>
 
-      <section id="research" class="section">
-        <div class="section-heading">
-          <span class="section-kicker">Research</span>
+        <section id="research" class="content-section">
           <h2>Research Interests</h2>
-        </div>
-        <div class="interest-grid">
-          <article>
-            <h3>Robust Machine Learning</h3>
-            <p>Trustworthy learning methods for complex classification settings.</p>
-          </article>
-          <article>
-            <h3>Noisy & Imbalanced Data</h3>
-            <p>Algorithms for label noise, class imbalance, and multiclass classification.</p>
-          </article>
-          <article>
-            <h3>Deep Learning & LLMs</h3>
-            <p>Large language models, deep learning, and responsible AI adoption.</p>
-          </article>
-          <article>
-            <h3>Applied AI</h3>
-            <p>AI applications in healthcare, cybersecurity, fraud detection, and energy.</p>
-          </article>
-        </div>
-      </section>
+          <ul class="compact-list">
+            <li>Trustworthy and robust machine learning</li>
+            <li>Deep learning and large language models</li>
+            <li>Learning with noisy and imbalanced data</li>
+            <li>Imbalanced and multiclass classification</li>
+            <li>AI applications in healthcare and cybersecurity</li>
+          </ul>
+        </section>
 
-      <section id="publications" class="section publications">
-        <div class="section-heading">
-          <span class="section-kicker">Selected work</span>
-          <h2>Publications</h2>
-        </div>
-        <ol class="publication-list">
-          <li>
-            <strong>Large Language Models in Higher Education: A Systematic Review of Adoption, Impacts, and Governance.</strong>
-            AIET 2026.
-          </li>
-          <li>
-            <strong>GDP Forecasting for the United States (2025-2030) Using ARIMA, OLS, LSTM and Hybrid Models.</strong>
-            EECSS 2026.
-          </li>
-          <li>
-            <strong>Imbalanced classification with label noise: A systematic review and comparative analysis.</strong>
-            ICT Express, 2025.
-          </li>
-          <li>
-            <strong>RSMOTE: A self-adaptive robust SMOTE for imbalanced problems with label noise.</strong>
-            Information Sciences, 2021.
-          </li>
-          <li>
-            <strong>mCRF and mRD: Two classification methods based on a novel multiclass label noise filtering learning framework.</strong>
-            IEEE Transactions on Neural Networks and Learning Systems, 2022.
-          </li>
-        </ol>
-      </section>
+        <section id="publications" class="content-section">
+          <h2>Selected Publications</h2>
+          <article class="pub">
+            <h3>Large Language Models in Higher Education: A Systematic Review of Adoption, Impacts, and Governance</h3>
+            <p>Mohammed S., Chang S., Wu F., <strong>Chen B.</strong> Accepted in AIET 2026.</p>
+          </article>
+          <article class="pub">
+            <h3>GDP Forecasting for the United States (2025-2030) Using ARIMA, OLS, LSTM and Hybrid Models</h3>
+            <p>Chang S., Mohammed S., Zhang F., <strong>Chen B.</strong>, Wu F. Accepted in EECSS 2026.</p>
+          </article>
+          <article class="pub">
+            <h3>Imbalanced classification with label noise: A systematic review and comparative analysis</h3>
+            <p>Brishti F., Zhang F., Mohammed S., Bai L., Wu F., <strong>Chen B.</strong> ICT Express, 2025.</p>
+          </article>
+          <article class="pub">
+            <h3>Malware Detection Using Machine Learning: A Comparative Analysis</h3>
+            <p>Mohammed S., Zhang F., Brishti F., <strong>Chen B.</strong>, Wu F. IARIA, 2025.</p>
+          </article>
+          <article class="pub">
+            <h3>RSMOTE: A self-adaptive robust SMOTE for imbalanced problems with label noise</h3>
+            <p><strong>Chen B.</strong>, Xia S., Chen Z., Wang B., Wang G. Information Sciences, 2021.</p>
+          </article>
+          <article class="pub">
+            <h3>mCRF and mRD: Two classification methods based on a novel multiclass label noise filtering learning framework</h3>
+            <p>Xia S., <strong>Chen B.</strong>, Wang G., Zheng Y., Gao X., Giem E., Chen Z. IEEE TNNLS, 2022.</p>
+          </article>
+        </section>
 
-      <section class="section split">
-        <div>
-          <span class="section-kicker">Funding</span>
+        <section id="grants" class="content-section">
           <h2>Grants</h2>
-        </div>
-        <div class="timeline">
-          <article>
-            <p class="meta">National Science Foundation · 2024-2028 · Co-PI</p>
-            <h3>AI and Cybersecurity Education for Cyberinfrastructure: A Hands-on Approach</h3>
-            <p>Collaborative Research: CyberTraining Implementation, Medium. Award amount: $359,999.</p>
+          <article class="entry">
+            <p class="date">2024-2028</p>
+            <h3>Collaborative Research: CyberTraining: Implementation: Medium</h3>
+            <p>
+              AI and Cybersecurity Education for Cyberinfrastructure: A Hands-on
+              Approach. National Science Foundation. Role: Co-PI. Amount: $359,999.
+            </p>
           </article>
-          <article>
-            <p class="meta">CQUPT · PI</p>
+          <article class="entry">
+            <p class="date">PI</p>
             <h3>Research on Pivotal Technologies of Denoising in Big Data Environment</h3>
-            <p>Research support for denoising technologies in big data environments.</p>
+            <p>CQUPT research support for denoising technologies in big data environments.</p>
           </article>
-        </div>
-      </section>
+        </section>
 
-      <section id="experience" class="section split">
-        <div>
-          <span class="section-kicker">Background</span>
-          <h2>Experience & Education</h2>
-        </div>
-        <div class="timeline">
-          <article>
-            <p class="meta">2023-Present</p>
+        <section id="cv" class="content-section">
+          <h2>CV</h2>
+          <article class="entry">
+            <p class="date">2023-Present</p>
             <h3>Assistant Professor, Tuskegee University</h3>
-            <p>Department of Computer Science, Tuskegee, Alabama.</p>
+            <p>Department of Computer Science, Tuskegee, Alabama, USA.</p>
           </article>
-          <article>
-            <p class="meta">2021-2022</p>
+          <article class="entry">
+            <p class="date">2021-2022</p>
             <h3>Visiting Scholar, Catholic University of Louvain</h3>
             <p>ICTEAM, Louvain-la-Neuve, Belgium.</p>
           </article>
-          <article>
-            <p class="meta">2017-2022</p>
+          <article class="entry">
+            <p class="date">2017-2022</p>
             <h3>Ph.D. in Computer Science</h3>
-            <p>Chongqing University of Posts and Telecommunications.</p>
+            <p>Chongqing University of Posts and Telecommunications, China.</p>
           </article>
-        </div>
-      </section>
-    </main>
+          <article class="entry">
+            <p class="date">2012-2015</p>
+            <h3>M.S. in Management Information System</h3>
+            <p>Zhongnan University of Economics and Law, China.</p>
+          </article>
+          <article class="entry">
+            <p class="date">2008-2012</p>
+            <h3>B.S. in Information Management and Information System</h3>
+            <p>Zhongnan University of Economics and Law, China.</p>
+          </article>
+        </section>
 
-    <footer id="contact" class="footer">
-      <div>
-        <span class="section-kicker">Contact</span>
-        <h2>Let's connect</h2>
-      </div>
-      <a href="mailto:bchen@tuskegee.edu">bchen@tuskegee.edu</a>
-    </footer>
+        <section id="service" class="content-section">
+          <h2>Academic Service & Awards</h2>
+          <ul class="compact-list">
+            <li>Invited Program Committee Member, QRS 2026.</li>
+            <li>Reviewer for IEEE TNNLS, IEEE TCSS, Information Sciences, Knowledge-Based Systems, Neurocomputing, and related venues.</li>
+            <li>Best Paper Award, IARIA Annual Congress, 2024.</li>
+            <li>National Scholarship honors at CQUPT and ZNUEL.</li>
+          </ul>
+        </section>
+
+        <footer id="contact" class="content-section footer">
+          <h2>Contact</h2>
+          <p>
+            Department of Computer Science<br>
+            Tuskegee University<br>
+            Tuskegee, AL 36088
+          </p>
+          <p><a href="mailto:bchen@tuskegee.edu">bchen@tuskegee.edu</a></p>
+        </footer>
+      </main>
+    </div>
   </body>
 </html>
