@@ -243,6 +243,28 @@ section {
   padding-left: 26px;
 }
 
+.interest-groups {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.interest-groups section {
+  padding: 18px;
+  margin-bottom: 0;
+  border: 1px solid var(--line);
+  background: #ffffff;
+}
+
+.interest-groups h3 {
+  color: var(--accent);
+}
+
+.interest-groups ul {
+  margin-bottom: 0;
+  padding-left: 20px;
+}
+
 strong {
   color: var(--heading);
 }
@@ -264,6 +286,10 @@ strong {
     grid-template-columns: 1fr;
     gap: 24px;
     padding-top: 28px;
+  }
+
+  .interest-groups {
+    grid-template-columns: 1fr;
   }
 
   .profile-box {
