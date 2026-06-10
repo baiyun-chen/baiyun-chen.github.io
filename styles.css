@@ -147,6 +147,10 @@ a:hover {
   color: #777;
 }
 
+.profile-links a {
+  overflow-wrap: anywhere;
+}
+
 .content {
   max-width: 800px;
 }
